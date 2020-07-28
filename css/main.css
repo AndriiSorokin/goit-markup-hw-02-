@@ -1,0 +1,17 @@
+/* head color #757575;
+second color  #212121;
+hover #2196F3;
+bacground section #F5F4FA;
+footer color #2F303A;
+ */
+
+:root {
+    --primary-text-color: #757575;
+    --second-text-color: #212121;
+    --hover-text-color: #2196F3;
+}
+
+body {
+    background-color: #fff;
+    color: var(--primary-text-color)
+}
