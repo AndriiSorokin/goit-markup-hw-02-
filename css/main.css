@@ -1,7 +1,7 @@
 /* head color #757575;
 second color  #212121;
 hover #2196F3;
-bacground section #F5F4FA;
+background section #F5F4FA;
 footer color #2F303A;
  */
 
@@ -13,5 +13,102 @@ footer color #2F303A;
 
 body {
     background-color: #fff;
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    font-size: 14px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Site nav  */
+
+.site-nav .link {
+    color: var(--second-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--hover-text-color);
+}
+
+.section-title {
+    color: var(--second-text-color);
+}
+
+.section-team {
+    background-color: #F5F4FA;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.btn {
+    color: #fff;
+    background-color: var(--hover-text-color);
+}
+
+.team-text {
+    color: var(--primary-text-color);
+}
+
+/* Не могу понять как сделать ховер для ссылок команды, как не пробовал не выходит :( */
+
+.app {
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 0.03em;
+}
+
+address a {
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+    ;
+}
+
+address p {
+    color: #fff;
+    font-style: normal;
+}
+
+.footer-text {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+/* Css portflio */
+
+.filter li {
+    color: var(--second-text-color);
+    background-color: #F5F4FA;
+}
+
+.filter li:hover,
+.filter li:focus {
+    color: #fff;
+    background-color: var(--hover-text-color);
+}
+
+.work-list h2 {
+    color: var(--second-text-color);
+    font-size: 18px;
+}
+
+.modal-text {
+    color: #fff;
 }
