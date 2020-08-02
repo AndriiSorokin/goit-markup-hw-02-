@@ -9,7 +9,7 @@ footer color #2F303A;
     --primary-text-color: #757575;
     --second-text-color: #212121;
     --hover-text-color: #2196F3;
-    --background-sectio-color: #F5F4FA;
+    --background-section-color: #F5F4FA;
 }
 
 body {
@@ -43,7 +43,7 @@ a {
 }
 
 .section-team {
-    background-color: var(--background-sectio-color);
+    background-color: var(--background-section-color);
 }
 
 h2 {
