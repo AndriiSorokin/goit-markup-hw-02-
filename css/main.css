@@ -95,13 +95,13 @@ footer {
 
 /* Css portflio */
 
-.filter li {
+.btn {
     color: var(--second-text-color);
     background-color: #F5F4FA;
 }
 
-.filter li:hover,
-.filter li:focus {
+.btn:hover,
+.btn:focus {
     color: #fff;
     background-color: var(--hover-text-color);
 }
